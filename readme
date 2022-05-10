@@ -1,3 +1,5 @@
+https://medium.com/mindboard/active-learning-for-fast-data-set-labeling-890d4080d750
+
 Active Learning for Fast Data Set Labeling
 Active learning is a special case of machine learning where a model can query a user for input. 
 In this post, we will see how we can use active learning to label large data sets. For most machine learning tasks, large amounts of labeled data is needed is need for model training. However, the process of labeling data can be extremely time consuming and/or expensive. Using active learning, we can leverage a classification model to do most of the labeling for us, so that we only need to label samples when it is most needed.
@@ -14,6 +16,7 @@ Hand label the remaining data.
 
 Using this method, we can obtain a labeled data set while only having to handle label a fraction of samples. 
 The drawback is that there is no guarantee that all of the model predicted labels will be accurate. However, we can decrease the number of mislabeled data by increasing the number of hand labeled samples in steps 1 and 5, as well as increasing the probability threshold in step 4. A small amount of mislabeled data will have negligible effects on a classifier, assuming classes are well represented in the data.
-
 Experiment
 To test the productivity of this data labeling method, we will use it on the MNIST data set with 60,000 samples. Since the MNIST data set comes with labels, no actual hand labeling is required. We will be simulating hand labeling by using the true labels whenever we need samples hand labeled. For this experiment, we halt the process when there are fewer than 1% of unlabeled samples.
+
+![alt text](https://miro.medium.com/max/1400/1*VOgnIg8FDHe8C1FPWy15Fg.png)

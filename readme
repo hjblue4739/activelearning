@@ -19,4 +19,4 @@ The drawback is that there is no guarantee that all of the model predicted label
 Experiment
 To test the productivity of this data labeling method, we will use it on the MNIST data set with 60,000 samples. Since the MNIST data set comes with labels, no actual hand labeling is required. We will be simulating hand labeling by using the true labels whenever we need samples hand labeled. For this experiment, we halt the process when there are fewer than 1% of unlabeled samples.
 
-![alt text](https://miro.medium.com/max/1400/1*VOgnIg8FDHe8C1FPWy15Fg.png)
+![plot](https://miro.medium.com/max/1400/1*VOgnIg8FDHe8C1FPWy15Fg.png)
